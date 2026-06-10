@@ -1,0 +1,19 @@
+{
+    "posts": [
+        {
+            "id": 3,
+            "title": "My Post",
+            "author": "Jane Doe"
+        },
+        {
+            "id": 4,
+            "title": "About Post",
+            "author": "Jane Doe"
+        }
+    ],
+    "profile": {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe@example.com"
+    }
+}
