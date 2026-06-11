@@ -1,6 +1,8 @@
-# Local Reusable Docker container to run php composer commands
+# Learning Docker
 
-a shell function that mounts whatever directory you're currently in. Add this to your ~/.bashrc or ~/.zshrc:
+## Local Reusable Docker container to run php composer commands
+
+A shell function that mounts whatever directory you're currently in. Add this to your ~/.bashrc or ~/.zshrc:
 
 ```
 composer() {
@@ -8,4 +10,4 @@ composer() {
 }
 ```
 
-$(id -u):$(id -g) resolves to your actual user/group IDs at runtime, so Docker writes files as you — no root ownership issues, no custom dockerfile needed.
+- $(id -u):$(id -g) resolves to your actual user/group IDs at runtime, so Docker writes files as you — no root ownership issues, no custom dockerfile needed.
