@@ -1,6 +1,6 @@
 # Learning Docker
 
-## Local Reusable Docker container to run php composer commands
+## Local reusable docker container to run php composer commands from a shell function
 
 A shell function that mounts whatever directory you're currently in. Add this to your ~/.bashrc or ~/.zshrc:
 
