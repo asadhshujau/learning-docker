@@ -10,4 +10,4 @@ composer() {
 }
 ```
 
-- $(id -u):$(id -g) resolves to your actual user/group IDs at runtime, so Docker writes files as you — no root ownership issues, no custom dockerfile needed.
+- (id -u) and (id -g) resolves to your actual user/group IDs at runtime, so Docker writes files as you — no root ownership issues, no custom dockerfile needed.
